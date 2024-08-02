@@ -1,5 +1,4 @@
-# This example takes the temperature from the Pico's onboard temperature sensor, and displays it on Pico Display Pack, along with a little pixelly graph.
-# It's based on the thermometer example in the "Getting Started with MicroPython on the Raspberry Pi Pico" book, which is a great read if you're a beginner!
+# This example grabs an NTP website's clock and syncs to the pico, then displays on the screen.
 import WIFI_CONFIG
 from network_manager import NetworkManager
 import machine
