@@ -1,5 +1,5 @@
-# This example takes the temperature from the Pico's onboard temperature sensor, and displays it on Pico Display Pack, along with a little pixelly graph.
-# It's based on the thermometer example in the "Getting Started with MicroPython on the Raspberry Pi Pico" book, which is a great read if you're a beginner!
+# This example uses a Pico W and a Pico Display Pack 2 with their Micropython 
+# version to connect to a network and get the time and display on the screen.
 
 import machine
 import time
